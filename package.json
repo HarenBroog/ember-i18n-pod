@@ -3,15 +3,17 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "i18n",
+    "pod"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Damian Romanów",
+  "repository": "https://github.com/HarenBroog/ember-i18n-pod",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
