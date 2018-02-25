@@ -7,10 +7,6 @@ const I18nFilter = require('./lib/i18n-filter')
 module.exports = {
   name: 'ember-i18n-pod',
 
-  isDevelopingAddon() {
-    return true
-  },
-
   includedCommands() {
     return commands
   },
