@@ -8,7 +8,7 @@ export function localT(i18n, context, path, hash) {
     .replace('controller:', '')
 
   let finalPath = [
-    'pods',
+    'pod',
     objectName,
     path
   ].join('.')
