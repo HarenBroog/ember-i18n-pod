@@ -8,12 +8,10 @@ export function localT(i18n, context, path, hash) {
     .replace('controller:', '')
 
   let finalPath = [
-    'pod',
+    'pods',
     objectName,
     path
   ].join('.')
-  .underscore()
-  .replace('_', '-')
 
   return i18n.t(finalPath, hash)
 }
