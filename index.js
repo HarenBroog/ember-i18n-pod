@@ -1,9 +1,8 @@
-'use strict';
+'use strict'
 
-const utils      = require('./lib/utils')
-const commands   = require('./lib/commands')
+const utils = require('./lib/utils')
+const commands = require('./lib/commands')
 const I18nFilter = require('./lib/i18n-filter')
-
 module.exports = {
   name: 'ember-i18n-pod',
 
@@ -22,4 +21,4 @@ module.exports = {
       })
     }
   }
-};
+}
